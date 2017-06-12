@@ -26,7 +26,7 @@ session.setAttribute("pwd", password);
 if(uName != null && password != null )
 {
 Class.forName("com.mysql.jdbc.Driver");
-String url="jdbc:mysql://10.129.144.87:3306/sampledb";
+String url="jdbc:mysql://10.129.126.174:3306/sampledb";
 Connection con=DriverManager.getConnection(url,"AnilNalawade","Nilnik123");
 
 Statement stmt=con.createStatement();
