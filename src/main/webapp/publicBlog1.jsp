@@ -19,7 +19,7 @@
 <jsp:include page="header1.jsp"></jsp:include>
 <%
 Class.forName("com.mysql.jdbc.Driver");
-String url="jdbc:mysql://10.129.144.87:3306/sampledb";
+String url="jdbc:mysql://10.130.12.67:3306/sampledb";
 Connection con=DriverManager.getConnection(url,"AnilNalawade","Nilnik123");
 
 Statement stmt=con.createStatement();
